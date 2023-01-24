@@ -74,7 +74,7 @@ main() {
   readonly show_window_in_window_status_current="#[fg=$thm_fg,bg=$thm_gray] #W #[fg=$thm_bg,bg=$thm_orange] #I#[fg=$thm_orange,bg=$thm_bg]#[fg=$thm_fg,bg=$thm_bg,nobold,nounderscore,noitalics] "
 
   #readonly show_mode_indicator="#{?client_prefix,#[fg=$thm_red],#[fg=$thm_green]}#{?client_prefix,#[bg=$thm_red],#[bg=$thm_green]}#[fg=$thm_gray]#{?client_prefix,#[fg=$thm_red],#[fg=$thm_green]}#[bg=$thm_bg]"
-  readonly show_mode_indicator="#{?client_prefix,#[fg=$thm_red],#[fg=$thm_gray]}#{?client_prefix,#[fg=$thm_gray]#[bg=$thm_red],#[fg=$thm_fg]#[bg=$thm_bg]}#{?client_prefix,#[fg=$thm_red],#[fg=$thm_bg]}#[bg=$thm_bg]"
+  readonly show_mode_indicator="#{?client_prefix,#[fg=$thm_cyan],#[fg=$thm_bg]}#{?client_prefix,#[fg=$thm_gray]#[bg=$thm_cyan],#[fg=$thm_fg]#[bg=$thm_bg]}#{?client_prefix,#[fg=$thm_cyan],#[fg=$thm_bg]}#[bg=$thm_bg]"
 
   # Really basic, but buttons
   #readonly show_window_status="#[fg=$thm_gray,bg=$thm_bg]#[fg=$thm_fg,bg=$thm_gray]#W#[fg=$thm_gray,bg=$thm_bg] "
